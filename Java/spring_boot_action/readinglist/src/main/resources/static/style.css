@@ -1,0 +1,64 @@
+body {
+    background-color: #CAF0F8;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.bookHeadline {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.bookDescription {
+    font-size: 12pt;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+input {
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #0096C7;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+
+
+}
+
+input:focus {
+    border: 3px solid #023E8A;
+}
+
+textarea {
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #0096C7;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+textarea:focus {
+    border: 3px solid #023E8A;
+}
+
+form {
+    text-align: center;
+}
+
+hr {
+    color: #03045E;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
